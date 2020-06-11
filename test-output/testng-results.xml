@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting done - Test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start Browser and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and application up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end ]]>
+    </line>
+    <line>
+      <![CDATA[Test completed >>> Report genrated ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19989" started-at="2020-06-11T07:12:59Z" finished-at="2020-06-11T07:13:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19989" started-at="2020-06-11T07:12:59Z" finished-at="2020-06-11T07:13:19Z">
+      <class name="com.forum.testcases.LoginForum">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.forum.testcases.LoginForum@2f7c7260]" name="setUpSuite" is-config="true" duration-ms="1521" started-at="2020-06-11T12:42:58Z" finished-at="2020-06-11T12:42:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting done - Test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.forum.testcases.LoginForum@2f7c7260]" name="setup" is-config="true" duration-ms="12122" started-at="2020-06-11T12:42:59Z" finished-at="2020-06-11T12:43:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start Browser and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and application up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.forum.testcases.LoginForum@2f7c7260]" name="loginApp" duration-ms="5443" started-at="2020-06-11T12:43:11Z" finished-at="2020-06-11T12:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.forum.testcases.LoginForum@2f7c7260]" name="teardownMethod" is-config="true" duration-ms="1049" started-at="2020-06-11T12:43:17Z" finished-at="2020-06-11T12:43:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginForum.loginApp()[pri:0, instance:com.forum.testcases.LoginForum@2f7c7260] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end ]]>
+            </line>
+            <line>
+              <![CDATA[Test completed >>> Report genrated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.forum.testcases.LoginForum@2f7c7260]" name="teardown" is-config="true" duration-ms="1361" started-at="2020-06-11T12:43:18Z" finished-at="2020-06-11T12:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.forum.testcases.LoginForum -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
